@@ -1,0 +1,171 @@
+
+/*--------------------------------------------------------------
+Google Fonts
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text { clip: rect(1px, 1px, 1px, 1px); position: absolute !important; height: 1px; width: 1px; overflow: hidden; }
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus 
+{ background-color: #f1f1f1; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); clip: auto !important; color: #21759b; display: block; font-size: 14px; font-weight: bold; height: auto; left: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; /* Above WP toolbar */ }
+
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+
+html { }
+
+body, html { width: 100%; height: 100%; }
+body { font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif"; color: #eee; background-color: #333; }
+
+a { color: #555; text-decoration: none; }
+a:hover, a:focus { color: #333; }
+
+img { margin: 0; padding: 0; display: block; border: 0; width: 100%; height: auto; }
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+sup { margin-top: -.375em; font-size: .625em; display: inline-block; vertical-align: top; }
+
+.clear { clear: both; float: none; }
+.center { text-align: center; }
+.strong { font-weight: bold; }
+.italic { font-style: italic; }
+.uppercase { text-transform: uppercase; }
+
+body.home h1, 
+h2, 
+.offscreen 
+{ margin-left: -9999em; position: absolute; }
+
+
+/* Masthead section */
+
+.masthead { margin: 0; padding: 0 0 20em; width: 6em; height: 100%; background: #000 url("../images/pattern.png") repeat top left; border-right: 1px solid #666; position: fixed; top: 0; left: 0; }
+
+.masthead a { text-decoration: none; }
+/*
+.masthead p a span { margin-left: -9999em; position: absolute; }
+*/
+.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 2em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; writing-mode: vertical-rl; position: absolute; top: 4em; left: 1em; }
+.masthead a:hover p, .masthead a:focus p { color: #aaa; }
+.masthead a img { margin: 0; width: 6em; height: 6em; opacity: 1.0; }
+.masthead a:hover img, .masthead a:focus img { opacity: 0.85; }
+
+
+/* Home grid section */
+
+.home-grid { margin: 1em 1em 1em 7em; padding: 0; }
+
+.home-grid ul { display: grid; grid-template-columns: 1fr; grid-gap: 1em; }
+.home-grid li a img { margin: 0; padding: 0; width: 100%; height: auto; border: 1px solid #666; }
+.home-grid li a span { margin-left: -9999em; position: absolute; }
+.home-grid li a:hover span, 
+.home-grid li a:focus span { margin: 0; width: 100%; height: auto; display: block; background-color: #000; color: #eee; position: static; }
+
+
+/* Main navigation */
+
+#navigation { width: 6em; text-align: center; position: fixed; bottom: 11em; left: 0; z-index: 20; }
+#navigation li { margin: 0 0 .75em; padding: 0; font-size: .75em; text-transform: uppercase; }
+#navigation li a { color: #eee; }
+#navigation li a:hover, #navigation li a:focus { color: #aaa; text-decoration: underline; }
+
+body.home #navigation li.home-hide { display: none; }
+body.subpage #navigation li.sub-hide { display: none; }
+
+/* Project page */
+
+
+/* Colophon footer section */
+.colophon { margin: 0; padding: 0; position: fixed; bottom: 1em; left: 2em; z-index: 10; }
+.colophon ul { margin: 0; padding: 0; list-style-type: none; }
+.colophon li { margin: 1em 0 0; }
+.colophon li a { width: 2em; height: 2em; background-color: #eee; display: block; }
+.colophon li a span { margin-left: -9999em; position: absolute; }
+
+
+/*--------------------------------------------------------------
+Basic responsive layout for all browsers:
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+.home-grid ul { grid-template-columns: 1fr 1fr; }
+
+}
+
+@media screen and (min-width: 1224px) {
+
+.home-grid ul { grid-template-columns: 1fr 1fr 1fr; }
+	
+}
+
+@media screen and (min-width: 1800px) {
+
+.home-grid ul { grid-template-columns: 1fr 1fr 1fr 1fr; }
+	
+}
+
+
+/*--------------------------------------------------------------
+CSS Grid layout for modern browsers:
+--------------------------------------------------------------*/
+
+@supports (grid-area: auto) {
+
+@media screen and (min-width: 768px) {
+
+
+
+}
+
+
+@media screen and (min-width: 1224px) {
+
+
+	
+}
+
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+IE 10 + 11 specific:
+--------------------------------------------------------------*/
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+
+
+
+}
+
+@media screen and (min-width: 768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+
+
+}
+
+@media screen and (min-width: 1224px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+
+}
+
+
+
+
+
