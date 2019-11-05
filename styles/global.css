@@ -50,32 +50,35 @@ h2,
 
 /* Masthead section */
 
-.masthead { margin: 0; padding: 0 0 20em; width: 6em; height: 100%; background: #000 url("../images/pattern.png") repeat top left; border-right: 1px solid #666; position: fixed; top: 0; left: 0; }
+.masthead { margin: 0; padding: 0; width: 4em; height: 100%; background: #000 url("../images/pattern.png") repeat top left; border-right: 1px solid #666; position: fixed; top: 0; left: 0; }
 
 .masthead a { text-decoration: none; }
 /*
 .masthead p a span { margin-left: -9999em; position: absolute; }
 */
-.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 2em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; writing-mode: vertical-rl; position: absolute; top: 4em; left: 1em; }
+.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.5em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; writing-mode: vertical-rl; position: absolute; top: 3em; left: .75em; }
 .masthead a:hover p, .masthead a:focus p { color: #aaa; }
-.masthead a img { margin: 0; width: 6em; height: 6em; opacity: 1.0; }
-.masthead a:hover img, .masthead a:focus img { opacity: 0.85; }
+.masthead a img { margin: 0; padding: 0 10%; width: 80%; height: auto; background-color: #528db5; border-bottom: 1px solid #666; }
+.masthead a:hover img, .masthead a:focus img { background-color: #000; opacity: 0.85; }
 
 
 /* Home grid section */
 
-.home-grid { margin: 1em 1em 1em 7em; padding: 0; }
+.home-grid { margin: 1em 1em 1em 5em; padding: 0; }
 
 .home-grid ul { display: grid; grid-template-columns: 1fr; grid-gap: 1em; }
-.home-grid li a img { margin: 0; padding: 0; width: 100%; height: auto; border: 1px solid #666; }
-.home-grid li a span { margin-left: -9999em; position: absolute; }
-.home-grid li a:hover span, 
-.home-grid li a:focus span { margin: 0; width: 100%; height: auto; display: block; background-color: #000; color: #eee; position: static; }
+.home-grid li a { display: block; border: 1px solid #666; }
+.home-grid li a img { margin: 0; padding: 0; width: 100%; height: auto; opacity: 1.0; }
+.home-grid li a:hover img, 
+.home-grid li a:focus img { opacity: 0.2; }
+.home-grid li a h3 { margin-left: -9999em; position: absolute; font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1em; letter-spacing: .0625em; text-transform: uppercase; text-align: center; color: #eee; border: 1px solid #666; border-left: none; }
+.home-grid li a:hover h3, 
+.home-grid li a:focus h3 { margin: -6em 0 0; padding: 1em; background: transparent url("../images/black-60.png") repeat top left; }
 
 
 /* Main navigation */
 
-#navigation { width: 6em; text-align: center; position: fixed; bottom: 11em; left: 0; z-index: 20; }
+#navigation { width: 4em; text-align: center; position: fixed; top: 32em; left: 0; z-index: 10; }
 #navigation li { margin: 0 0 .75em; padding: 0; font-size: .75em; text-transform: uppercase; }
 #navigation li a { color: #eee; }
 #navigation li a:hover, #navigation li a:focus { color: #aaa; text-decoration: underline; }
@@ -87,10 +90,12 @@ body.subpage #navigation li.sub-hide { display: none; }
 
 
 /* Colophon footer section */
-.colophon { margin: 0; padding: 0; position: fixed; bottom: 1em; left: 2em; z-index: 10; }
+.colophon { margin: 0; padding: 0; position: fixed; top: 40em; left: 1em; z-index: 10; }
 .colophon ul { margin: 0; padding: 0; list-style-type: none; }
 .colophon li { margin: 1em 0 0; }
-.colophon li a { width: 2em; height: 2em; background-color: #eee; display: block; }
+.colophon li a { width: 2em; height: 2em; background-color: #000; border: 1px solid #666; display: block; }
+.colophon li a img { margin: 0; padding: 0; width: 100%; height: auto; opacity: 0.7; }
+.colophon li a:hover img, .colophon li a:focus img { margin: 0; padding: 0; width: 100%; height: auto; opacity: 1.0; }
 .colophon li a span { margin-left: -9999em; position: absolute; }
 
 
@@ -100,7 +105,14 @@ Basic responsive layout for all browsers:
 
 @media screen and (min-width: 768px) {
 
+.masthead { width: 6em; }
+.masthead a p { font-size: 2em; top: 3.5em; left: .75em; }
+
+.home-grid { margin-left: 7em; }
 .home-grid ul { grid-template-columns: 1fr 1fr; }
+
+#navigation { width: 6em; top: auto; bottom: 12em; }
+.colophon { top: auto; bottom: 2em; left: 2em; }
 
 }
 
