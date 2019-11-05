@@ -56,7 +56,7 @@ h2,
 /*
 .masthead p a span { margin-left: -9999em; position: absolute; }
 */
-.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.5em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; writing-mode: vertical-rl; position: absolute; -ms-writing-mode: tb-lr; top: 3em; left: .75em; }
+.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.5em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; writing-mode: vertical-rl; position: absolute; -ms-writing-mode: tb-lr; top: 3em; left: .8125em; }
 .masthead a:hover p, .masthead a:focus p { color: #aaa; }
 .masthead a img { margin: 0; padding: 0 10%; width: 80%; height: auto; background-color: #528db5; border-bottom: 1px solid #666; }
 .masthead a:hover img, .masthead a:focus img { background-color: #000; opacity: 0.85; }
@@ -78,6 +78,7 @@ h2,
 /* Subpage content section */
 
 .project { margin: 1em 1em 1em 5em; padding: 0; }
+.project p { margin: 0 0 1em; font-size: 1em; line-height: 1.25em; }
 
 .project-title { margin: 0 1em 1em; }
 .project-title h1 { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 3em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; }
@@ -87,7 +88,8 @@ h2,
 
 .project-about div { margin: 0 0 2em; }
 .project-about h3 { margin: 0 0 1em; font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.25em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; }
-.project-about p { margin: 0 0 1em; font-size: 1em; line-height: 1.125em; }
+
+body.about .project img { margin: 4em 0 0; border: 1px solid #222; }
 
 
 .project-images { margin: 0; }
@@ -125,7 +127,7 @@ Basic responsive layout for all browsers:
 @media screen and (min-width: 768px) {
 
 .masthead { width: 6em; }
-.masthead a p { font-size: 2em; top: 3.5em; left: .75em; }
+.masthead a p { font-size: 2em; top: 3.5em; left: .875em; }
 
 .home-grid { margin-left: 7em; }
 .home-grid ul { grid-template-columns: 1fr 1fr; }
@@ -136,6 +138,7 @@ Basic responsive layout for all browsers:
 .project-title h1 { padding: .5em; writing-mode: vertical-rl; -ms-writing-mode: tb-lr; }
 
 .project-about { margin: 0; display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2em; }
+body.about .project img { margin: 6em 10% 0; width: 80%; }
 
 #navigation { width: 6em; }
 .colophon { left: 2em; }
@@ -145,6 +148,8 @@ Basic responsive layout for all browsers:
 @media screen and (min-width: 1224px) {
 
 .home-grid ul { grid-template-columns: 1fr 1fr 1fr; }
+
+body.about .project img { margin: 6em 20% 0; width: 60%; }
 
 .project-images ul { grid-template-columns: 1fr 1fr; }
 .project-images ul :first-child { grid-column: 1 / -1; }
