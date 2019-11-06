@@ -56,7 +56,7 @@ h2,
 /*
 .masthead p a span { margin-left: -9999em; position: absolute; }
 */
-.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.5em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; writing-mode: vertical-rl; position: absolute; -ms-writing-mode: tb-lr; top: 3em; left: .8125em; }
+.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.375em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; writing-mode: vertical-rl; position: absolute; -ms-writing-mode: tb-lr; top: 3em; left: .8125em; }
 .masthead a:hover p, .masthead a:focus p { color: #aaa; }
 .masthead a img { margin: 0; padding: 0 10%; width: 80%; height: auto; background-color: #528db5; border-bottom: 1px solid #666; }
 .masthead a:hover img, .masthead a:focus img { background-color: #000; opacity: 0.85; }
@@ -111,6 +111,8 @@ body.about .project img { margin: 4em 0 0; border: 1px solid #222; }
 #navigation li { font-size: .75em; text-transform: uppercase; border-bottom: 1px solid #666; }
 #navigation li a { padding: 1em 0; color: #eee; background-color: #000; display: block; }
 #navigation li a:hover, #navigation li a:focus { color: #aaa; background-color: #222; text-decoration: underline; }
+
+#navigation li a.active { background-color: #528db5; }
 
 body.home #navigation li.home-hide { display: none; }
 body.subpage #navigation li.sub-hide { display: none; }
