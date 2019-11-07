@@ -4,21 +4,29 @@ $(document).ready(function() {
 	$("#navigation li a#all").click(function(){
 		$("#navigation li a").removeClass("current");
 		$(this).addClass("current");
+		$("ul.folio li").removeClass("noshow");
+		$("ul.folio li.default").addClass("noshow");
 	});
 		
 	$("#navigation li a#print").click(function(){
 		$("#navigation li a").removeClass("current");
 		$(this).addClass("current");
+		$("ul.folio li").removeClass("noshow");
+		$("ul.folio li.digital, ul.folio li.logos, ul.folio li.digital-logos").addClass("noshow");
 	});
 	
 	$("#navigation li a#digital").click(function(){
 		$("#navigation li a").removeClass("current");
 		$(this).addClass("current");
+		$("ul.folio li").removeClass("noshow");
+		$("ul.folio li.print, ul.folio li.logos, ul.folio li.print-logos").addClass("noshow");
 	});
 	
 	$("#navigation li a#logos").click(function(){
 		$("#navigation li a").removeClass("current");
 		$(this).addClass("current");
+		$("ul.folio li").removeClass("noshow");
+		$("ul.folio li.print, ul.folio li.digital, ul.folio li.print-digital").addClass("noshow");
 	});
 	
 });
@@ -30,18 +38,18 @@ $(document).ready(function() {
 $(document).ready(function() { 
 	
 	$("#navigation li.all a").click(function(){
-		$("ul.folio li").removeClass("noshow");
+		
 		$("#navigation li.all a").removeClass("current");
 		$("#navigation li.all a").removeClass("active");
-		$("ul.folio li.default").addClass("noshow");
+		
 		$(this).addClass("current");
 	});
 		
 	$("#navigation li.print a").click(function(){
-		$("ul.folio li").removeClass("noshow");
+		
 		$("#navigation li.print a").removeClass("current");
 		$("#navigation li.print a").removeClass("active");
-		$("ul.folio li.digital, ul.folio li.logos, ul.folio li.digital-logos").addClass("noshow");
+		
 		$(this).addClass("current");
 	});
 	
