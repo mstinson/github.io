@@ -2,6 +2,34 @@
 $(document).ready(function() { 
 	
 	$("#navigation li.all a").click(function(){
+		$("#navigation li.all a").removeClass("current");
+		$(this).addClass("current");
+	});
+		
+	$("#navigation li.print a").click(function(){
+		$("#navigation li.print a").removeClass("current");
+		$(this).addClass("current");
+	});
+	
+	$("#navigation li.digital a").click(function(){
+		$("#navigation li.digital a").removeClass("current");
+		$(this).addClass("current");
+	});
+	
+	$("#navigation li.logos a").click(function(){
+		$("#navigation li.logos a").removeClass("current");
+		$(this).addClass("current");
+	});
+	
+});
+
+
+
+
+/*
+$(document).ready(function() { 
+	
+	$("#navigation li.all a").click(function(){
 		$("ul.folio li").removeClass("noshow");
 		$("#navigation li.all a").removeClass("current");
 		$("#navigation li.all a").removeClass("active");
@@ -34,3 +62,5 @@ $(document).ready(function() {
 	});
 	
 });
+*/
+
