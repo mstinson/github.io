@@ -75,6 +75,8 @@ h2,
 .home-grid li a:hover h3, 
 .home-grid li a:focus h3 { margin: -8em 0 0; padding: 1em; background: transparent url("../images/black-60.png") repeat top left; }
 
+.home-grid li.noshow { display: none; }
+
 
 /* Subpage content section */
 
