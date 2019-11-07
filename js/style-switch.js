@@ -5,7 +5,6 @@ $(document).ready(function() {
 		$("#navigation li a").removeClass("current");
 		$(this).addClass("current");
 		$("ul.folio li").removeClass("noshow");
-		$("ul.folio li.default").addClass("noshow");
 	});
 		
 	$("#navigation li a#print").click(function(){
