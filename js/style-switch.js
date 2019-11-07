@@ -1,23 +1,23 @@
 
 $(document).ready(function() { 
 	
-	$("#navigation li.all a").click(function(){
-		$("#navigation li.all a").removeClass("current");
+	$("#navigation li a.all").click(function(){
+		$("#navigation li a.all").removeClass("current");
 		$(this).addClass("current");
 	});
 		
-	$("#navigation li.print a").click(function(){
-		$("#navigation li.print a").removeClass("current");
+	$("#navigation li a.print").click(function(){
+		$("#navigation li a.print").removeClass("current");
 		$(this).addClass("current");
 	});
 	
-	$("#navigation li.digital a").click(function(){
-		$("#navigation li.digital a").removeClass("current");
+	$("#navigation li a.digital").click(function(){
+		$("#navigation li a.digital").removeClass("current");
 		$(this).addClass("current");
 	});
 	
-	$("#navigation li.logos a").click(function(){
-		$("#navigation li.logos a").removeClass("current");
+	$("#navigation li a.logos").click(function(){
+		$("#navigation li a.logos").removeClass("current");
 		$(this).addClass("current");
 	});
 	
