@@ -94,7 +94,10 @@ h2,
 .project-about h3.first, 
 .project-info h3.first { margin-top: -1em; }
 
-.project-info ul.software li { margin: 0 .5em 0 0; width: 2.5em; height: 2.5em; display: inline-block; }
+.project-about h3 span, 
+.project-info h3 span { margin: 0 .5em 0 0; padding: 0; width: 0; height: 0; border-left: .75em solid transparent; border-right: .75em solid transparent; border-top: .75em solid #528db5; display: inline-block;}
+
+.project-info ul.software li { margin: 0 .5em 0 0; width: 1.5em; height: 1.5em; display: inline-block; }
 .project-info ul.software li span { margin-left: -9999em; position: absolute; }
 
 .project-images { margin: 0; }
@@ -148,23 +151,23 @@ Basic responsive layout for all browsers:
 .project-about { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2em; }
 body.about .project img { margin: 6em 10% 0; width: 80%; }
 
+.project-images ul { grid-template-columns: 1fr 1fr; }
+.project-images ul :first-child { grid-column: 1 / -1; }
+
 #navigation { width: 6em; }
 .colophon { left: 2em; }
 
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 992px) {
 
 .home-grid ul { grid-template-columns: 1fr 1fr 1fr; }
 
 body.about .project img { margin: 6em 20% 0; width: 60%; }
 
-.project-images ul { grid-template-columns: 1fr 1fr; }
-.project-images ul :first-child { grid-column: 1 / -1; }
-
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1200px) {
 
 .home-grid ul { grid-template-columns: 1fr 1fr 1fr 1fr; }
 	
