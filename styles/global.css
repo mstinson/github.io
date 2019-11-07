@@ -103,12 +103,12 @@ ul.folio li.noshow { display: none; }
 .project-about div { margin: 0 0 2em; }
 
 .project-about h3, 
-.project-info h3 { margin: 0 0 1em; font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.25em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; }
+.project-info h3 { margin: 0 0 1em; padding: 0 0 0 2em; font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.25em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; }
 .project-about h3.first, 
 .project-info h3.first { margin-top: -1em; }
 
 .project-about h3 span, 
-.project-info h3 span { margin: 0 .5em 0 0; padding: 0; width: 0; height: 0; border-left: .75em solid transparent; border-right: .75em solid transparent; border-top: .75em solid #528db5; display: inline-block;}
+.project-info h3 span { margin: 0 .5em 0 -2em; padding: 0; width: 0; height: 0; border-left: .75em solid transparent; border-right: .75em solid transparent; border-top: .75em solid #528db5; display: inline-block;}
 
 .project-info ul.software li { margin: 0 .5em 0 0; width: 1.5em; height: 1.5em; display: inline-block; }
 .project-info ul.software li span { margin-left: -9999em; position: absolute; }
@@ -150,8 +150,8 @@ body.subpage #navigation li.home-show { display: none; }
 .colophon ul { margin: 0; padding: 0; list-style-type: none; }
 .colophon li { margin: 1em 0 0; }
 .colophon li a { width: 2em; height: 2em; background-color: #000; border: 1px solid #666; display: block; }
-.colophon li a img { margin: 0; padding: 0; width: 100%; height: auto; opacity: 0.7; }
-.colophon li a:hover img, .colophon li a:focus img { margin: 0; padding: 0; width: 100%; height: auto; opacity: 1.0; }
+.colophon li a img { margin: 0; padding: 0; width: 100%; height: auto; opacity: 1.0; }
+.colophon li a:hover img, .colophon li a:focus img { margin: 0; padding: 0; width: 100%; height: auto; opacity: 0.7; }
 .colophon li a span { margin-left: -9999em; position: absolute; }
 
 
