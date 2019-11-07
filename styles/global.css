@@ -75,19 +75,18 @@ h2,
 .home-grid li a:hover h3, 
 .home-grid li a:focus h3 { margin: -8em 0 0; padding: 1em; background: transparent url("../images/black-60.png") repeat top left; }
 
-.home-grid li.default { display: block; }
+ul.folio li.default, 
+ul.folio li.all, 
+ul.folio li.print, 
+ul.folio li.digital, 
+ul.folio li.logos, 
+ul.folio li.print-digital, 
+ul.folio li.print-logos, 
+ul.folio li.digital-logos, 
+ul.folio li.print-digital-logos 
+{ display: block; }
 
-.home-grid li.all, 
-.home-grid li.print, 
-.home-grid li.digital, 
-.home-grid li.logos, 
-.home-grid li.print-digital, 
-.home-grid li.print-logos, 
-.home-grid li.digital-logos, 
-.home-grid li.print-digital-logos 
-{ display: none; }
-
-.home-grid li.show { display: block; }
+ul.folio li.noshow { display: none; }
 
 
 /* Subpage content section */
