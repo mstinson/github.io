@@ -115,10 +115,14 @@ body.about .project img { margin: 4em 0 0; border: 1px solid #222; }
 #navigation li a { padding: 1em 0; color: #eee; background-color: #000; display: block; }
 #navigation li a:hover, #navigation li a:focus { color: #aaa; background-color: #222; text-decoration: underline; }
 
-#navigation li a.active { background-color: #528db5; }
-
-body.home #navigation li.home-hide { display: none; }
-body.subpage #navigation li.sub-hide { display: none; }
+body.home #navigation li a.active, 
+body.about #navigation li.about a 
+{ background-color: #528db5; }
+body.home #navigation li a.active:hover, 
+body.home #navigation li a.active:focus, 
+body.about #navigation li.about a:hover, 
+body.about #navigation li.about a:focus 
+{ color: #fff; }
 
 
 /* Colophon footer section */

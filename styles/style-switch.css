@@ -1,0 +1,33 @@
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+
+
+/* ---------- FOR ALL SCREENS UNLESS OVERRULED IN QUERY BELOW ---------- */
+
+#nav-sort { margin: 1em 15% 2em; padding: 0; width: 70%; height: auto; }
+
+#nav-sort .nav-toggle { margin: 0; padding: 1em; width: 100%; font-size: .875em; text-align: center; background-color: #e84a27; color: #fff; display: block;  
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out; 
+}
+
+#nav-sort .nav-toggle:hover, #nav-sort .nav-toggle:focus { background-color: #000; color: #fff; text-decoration: underline; }
+#nav-sort .nav-toggle:focus { outline: 2px solid #21759b; }
+
+#nav-sort .sort-collapse,
+#nav-sort .sort-collapse ul 
+{ margin: 0; padding: 0; list-style: none; }
+
+#nav-sort .sort-collapse li { margin: 0; padding: 0; width: 100%; float: left; }
+
+#nav-sort .sort-collapse a { margin: 0; padding: .75em 1em; width: 100%; font-size: .875em; background-color: #ddd; color: #333; text-decoration: none; display: block; border: 1px solid #999; border-top: none; }
+#nav-sort .sort-collapse a:hover, #nav-sort .sort-collapse a:focus { background-color: #bbb; color: #000; text-decoration: underline; }
+#nav-sort .sort-collapse a:focus { outline: 2px solid #21759b; }
+
+#nav-sort .sort-collapse li.last { margin-bottom: 1em; }
+
+
+
+
