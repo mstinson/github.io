@@ -128,9 +128,13 @@ body.about .project img { margin: 4em 0 0; border: 1px solid #222; }
 #navigation li a { padding: 1em 0; color: #eee; background-color: #000; display: block; }
 #navigation li a:hover, #navigation li a:focus { color: #aaa; background-color: #222; text-decoration: underline; }
 
+#navigation li a.active, 
 #navigation li a.current, 
 body.about #navigation li.about a 
 { background-color: #528db5; }
+
+#navigation li a.active:hover, 
+#navigation li a.active:focus, 
 #navigation li a.current:hover, 
 #navigation li a.current:focus, 
 body.about #navigation li.about a:hover, 
