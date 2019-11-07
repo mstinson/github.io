@@ -3,7 +3,6 @@ $(document).ready(function() {
 	
 	$("#navigation li a#all").click(function(){
 		$("#navigation li a").removeClass("current");
-		$("#navigation li a").removeClass("active");
 		$(this).addClass("current");
 	});
 		
