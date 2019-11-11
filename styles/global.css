@@ -161,10 +161,6 @@ Basic responsive layout for all browsers:
 
 @media screen and (min-width: 768px) {
 
-.masthead { width: 6em; }
-.masthead a p { font-size: 2em; top: 3.5em; left: .875em; }
-
-.home-grid { margin-left: 7em; }
 .home-grid ul { grid-template-columns: 1fr 1fr; }
 
 .project { margin: 1em 4em 1em 7em; padding: .5em 2em 1em 1em; }
@@ -178,18 +174,22 @@ body.about .project img { margin: 6em 10% 0; width: 80%; }
 .project-images ul { grid-template-columns: 1fr 1fr; }
 .project-images ul :first-child { grid-column: 1 / -1; }
 
-#navigation { width: 6em; bottom: 12em; }
-
-.colophon { left: 2em; }
-.colophon li a { width: 2em; height: 2em; }
-
 }
 
 @media screen and (min-width: 992px) {
 
+.masthead { width: 6em; }
+.masthead a p { font-size: 2em; top: 3.5em; left: .875em; }
+
+.home-grid { margin-left: 7em; }
 .home-grid ul { grid-template-columns: 1fr 1fr 1fr; }
 
 body.about .project img { margin: 6em 20% 0; width: 60%; }
+
+#navigation { width: 6em; bottom: 12em; }
+
+.colophon { left: 2em; }
+.colophon li a { width: 2em; height: 2em; }
 
 }
 
