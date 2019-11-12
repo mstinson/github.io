@@ -93,6 +93,8 @@ ul.folio li.noshow { display: none; }
 
 .project { margin: 0 1em 1em 5em; padding: 0; }
 .project p { margin: 0 0 1em; font-size: 1em; line-height: 1.25em; }
+.project a { color: #eee; text-decoration: underline; }
+.project a:hover, .project a:focus { color: #ddd; }
 
 .project-title { margin: 1em; }
 .project-title h1 { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 2em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; }
