@@ -71,9 +71,9 @@ h2,
 .home-grid li a img { margin: 0; padding: 0; width: 100%; height: auto; opacity: 1.0; }
 .home-grid li a:hover img, 
 .home-grid li a:focus img { opacity: 0.2; }
-.home-grid li a h3 { margin-left: -9999em; position: absolute; font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1em; letter-spacing: .0625em; text-transform: uppercase; text-align: center; color: #eee; border: 1px solid #666; border-left: none; }
+.home-grid li a h3 { margin-left: -9999em; position: absolute; font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1em; letter-spacing: .0625em; text-transform: uppercase; text-align: center; color: #eee; border: 1px solid #666; }
 .home-grid li a:hover h3, 
-.home-grid li a:focus h3 { margin: -8em 0 0; padding: 1em; background: transparent url("../images/black-60.png") repeat top left; }
+.home-grid li a:focus h3 { margin: -8em 0 0 -1px; padding: 1em; background: transparent url("../images/black-60.png") repeat top left; }
 
 ul.folio li.default, 
 ul.folio li.all, 
