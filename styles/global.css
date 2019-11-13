@@ -195,16 +195,16 @@ body.about .project img { margin: 6em 20% 0; width: 60%; }
 
 }
 
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+
+.masthead a p { margin-left: -9999em; position: absolute; }
+
+}
+
 @media screen and (min-width: 1200px) {
 
 .home-grid ul { grid-template-columns: 1fr 1fr 1fr 1fr; }
 	
-}
-
-@media only screen and (orientation: landscape) {
-
-.masthead a p { margin-left: -9999em; position: absolute; }
-
 }
 
 
