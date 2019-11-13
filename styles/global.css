@@ -201,6 +201,12 @@ body.about .project img { margin: 6em 20% 0; width: 60%; }
 	
 }
 
+@media only screen and (orientation: landscape) {
+
+.masthead a p { margin-left: -9999em; position: absolute; }
+
+}
+
 
 /*--------------------------------------------------------------
 CSS Grid layout for modern browsers:
