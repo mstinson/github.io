@@ -56,7 +56,7 @@ h2,
 /*
 .masthead p a span { margin-left: -9999em; position: absolute; }
 */
-.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.375em; letter-spacing: .0625em; text-transform: uppercase; color: #eee; writing-mode: vertical-rl; position: absolute; -ms-writing-mode: tb-lr; top: 3em; left: .8125em; }
+.masthead a p { font-family: "Questrial", "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 1.5em; letter-spacing: .0625em; text-transform: lowercase; color: #eee; writing-mode: vertical-rl; position: absolute; -ms-writing-mode: tb-lr; top: 3em; left: .75em; }
 .masthead a:hover p, .masthead a:focus p { color: #aaa; }
 .masthead a img { margin: 0; padding: 0 10%; width: 80%; height: auto; background-color: #528db5; border-bottom: 1px solid #666; }
 .masthead a:hover img, .masthead a:focus img { background-color: #000; opacity: 0.85; }
@@ -124,9 +124,9 @@ body.about .project img { margin: 4em 0 0; border: 1px solid #222; }
 
 /* Main navigation */
 
-#navigation { width: 4em; text-align: center; position: fixed; bottom: 10.5em; left: 0; z-index: 10; }
+#navigation { width: 4em; text-align: center; position: fixed; bottom: 8.5em; left: 0; z-index: 10; }
 #navigation ul { border-top: 1px solid #666; }
-#navigation li { font-size: .75em; text-transform: uppercase; border-bottom: 1px solid #666; }
+#navigation li { font-size: .875em; text-transform: lowercase; border-bottom: 1px solid #666; }
 #navigation li a { padding: 1em 0; color: #eee; background-color: #000; display: block; }
 #navigation li a:hover, #navigation li a:focus { color: #aaa; background-color: #222; text-decoration: underline; }
 
@@ -181,14 +181,14 @@ body.about .project img { margin: 6em 10% 0; width: 80%; }
 @media screen and (min-width: 992px) {
 
 .masthead { width: 6em; }
-.masthead a p { font-size: 2em; top: 3.5em; left: .875em; }
+.masthead a p { font-size: 2.5em; top: 2.75em; left: .75em; }
 
 .home-grid { margin-left: 7em; }
 .home-grid ul { grid-template-columns: 1fr 1fr 1fr; }
 
 body.about .project img { margin: 6em 20% 0; width: 60%; }
 
-#navigation { width: 6em; bottom: 12em; }
+#navigation { width: 6em; bottom: 10em; }
 
 .colophon { left: 2em; }
 .colophon li a { width: 2em; height: 2em; }
