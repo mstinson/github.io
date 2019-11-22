@@ -110,7 +110,7 @@ ul.folio li.noshow { display: none; }
 .project-info h3.first { margin-top: -1em; }
 
 .project-about h3 span, 
-.project-info h3 span { margin: 0 .5em 0 -2em; padding: 0; width: 0; height: 0; border-left: .75em solid transparent; border-right: .75em solid transparent; border-top: .75em solid #528db5; display: inline-block;}
+.project-info h3 span { margin: 0 .5em 0 -2em; padding: 0; width: 0; height: 0; border-left: .75em solid transparent; border-right: .75em solid transparent; border-top: .75em solid #999; display: inline-block;}
 
 .project-info ul.software li { margin: 0 .5em 0 0; width: 1.5em; height: 1.5em; display: inline-block; }
 .project-info ul.software li span { margin-left: -9999em; position: absolute; }
