@@ -214,7 +214,7 @@ Basic responsive layout for all browsers:
 
 @media screen and (max-width: 992px) and {orientation: landscape) {
 .masthead a p { display: none; }
-#navigation li a { padding: .75em 0; }
+#navigation li a { padding: .5em 0; }
 }
 
 
