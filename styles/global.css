@@ -197,7 +197,8 @@ body.about .project img { margin: 6em 20% 0; width: 60%; }
 
 @media only screen and (max-width: 992px) and (orientation: landscape) {
 
-.masthead a p { margin-left: -9999em; position: absolute; }
+.masthead a p { display: none; }
+#navigation li a { padding: .5em 0; }
 
 }
 
@@ -205,16 +206,6 @@ body.about .project img { margin: 6em 20% 0; width: 60%; }
 
 .home-grid ul { grid-template-columns: 1fr 1fr 1fr 1fr; }
 	
-}
-
-
-/*--------------------------------------------------------------
-Basic responsive layout for all browsers:
---------------------------------------------------------------*/
-
-@media screen and (max-width: 992px) and (orientation: landscape) {
-.masthead a p { display: none; }
-#navigation li a { padding: .5em 0; }
 }
 
 
