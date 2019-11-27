@@ -203,8 +203,8 @@ body.about .project img { margin: 6em 20% 0; width: 60%; }
 
 @media screen and (max-width: 992px) and (orientation: landscape) {
 
-#navigation { bottom: auto; top: 20em; } 
-.colophon { bottom: auto; top: 30em; }
+.masthead a p { display: none; }
+#navigation li a { padding: .5em 0; }
 
 }
 
